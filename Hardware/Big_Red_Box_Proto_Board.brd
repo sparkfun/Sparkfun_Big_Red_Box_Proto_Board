@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -153,7 +153,7 @@
 <plain>
 <text x="-35.56" y="-38.1" size="1.6764" layer="21" font="vector" ratio="15" align="center">Big Red Box Proto Board</text>
 <text x="-35.56" y="-38.1" size="1.6764" layer="22" font="vector" ratio="15" rot="MR0" align="center">Big Red Box Proto Board</text>
-<text x="66.04" y="-30.48" size="1.6764" layer="16" font="vector" ratio="15" rot="MR0" align="center">v01</text>
+<text x="66.04" y="-30.48" size="1.6764" layer="16" font="vector" ratio="15" rot="MR0" align="center">v10</text>
 <wire x1="0.254" y1="34.036" x2="0.254" y2="-32.004" width="0.2032" layer="20"/>
 <wire x1="-0.254" y1="34.036" x2="-0.254" y2="-32.004" width="0.2032" layer="20"/>
 </plain>
@@ -1438,6 +1438,9 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
