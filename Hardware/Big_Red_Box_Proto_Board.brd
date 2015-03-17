@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -156,6 +156,7 @@
 <text x="66.04" y="-30.48" size="1.6764" layer="16" font="vector" ratio="15" rot="MR0" align="center">v10</text>
 <wire x1="0.254" y1="34.036" x2="0.254" y2="-32.004" width="0.2032" layer="20"/>
 <wire x1="-0.254" y1="34.036" x2="-0.254" y2="-32.004" width="0.2032" layer="20"/>
+<text x="-45.72" y="-86.36" size="1.778" layer="51">Casey Kuhns</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
@@ -1341,6 +1342,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -1537,6 +1543,7 @@ design rules under a new name.</description>
 <element name="E$3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="" x="49.53" y="-39.37" rot="MR0"/>
 <element name="E$4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="" x="34.29" y="-31.75"/>
 <element name="E$5" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="" x="40.64" y="-31.75" rot="MR0"/>
+<element name="E$6" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="-73.66" y="-86.36"/>
 </elements>
 <signals>
 <signal name="S$2">
